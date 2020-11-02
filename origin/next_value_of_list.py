@@ -11,11 +11,11 @@ def next_value(sample_csv: str):
     while flag:
         for idx in range(len_fields):
             if next1 >= 48:
-                next1 = 0
+                next1 = 1
             if next2 >= 48:
-                next2 = 0
+                next2 = 1
             if next3 >= 48:
-                next3 = 0
+                next3 = 1
             print(
                 [
                     fields[idx][0].replace(' ', 'T'), 
